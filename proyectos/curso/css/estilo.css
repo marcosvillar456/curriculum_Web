@@ -373,7 +373,7 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 
 @media(max-width:767px){
 
-	.col-xs-12{width:100%;}
+	
 	.col-xs-11{width:91.66666667%;}
 	.col-xs-10{width:83.33333333%;}
 	.col-xs-9{width:75%;}
