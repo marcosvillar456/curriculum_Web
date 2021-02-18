@@ -65,6 +65,16 @@ header nav ul li a{
 	color:white;
 }
 
+header #btnMovil span{
+	width:40px;
+	height:40px;
+	text-align: center;
+	padding:10px 0;
+	margin:10px;
+	background:silver;
+	cursor: pointer;
+}
+
 /*=============================================
 SLIDESHOW
 =============================================*/
@@ -258,6 +268,70 @@ EFECTO DE SCROLL
 }
 
 /*=============================================
+FORMULARIO
+=============================================*/
+
+#formulario{
+	background: white;
+}
+
+#formulario form{
+	position:relative;
+	margin:auto;
+	width:70%;
+	height:auto;
+	padding:2%;
+	background:#ddd;
+}
+
+#formulario form h1{
+	width:100%;
+	line-height:50px;
+	background:black;
+	text-align:center;
+	font-size:20px;
+	color:white;
+}
+
+#formulario input, #formulario label, #formulario textarea, #formulario p, #formulario select{
+	display:block;
+	position:relative;
+	width:100%;
+	padding:10px;
+	font-size: 14px;
+}
+
+#formulario label span.obligatorio{
+	opacity: 0;
+	color:#777;
+}
+
+#formulario input[type="checkbox"], #formulario input[type="radio"]{
+	display:none;	
+}
+
+#formulario label.box span, #formulario label.radio span{
+	display:inline-block;
+	width:25px;
+	height:25px;
+	background:white;
+	vertical-align:middle;
+	margin-right:10px;
+}
+
+#formulario label.radio span{	
+	border-radius:100%;
+}
+
+#formulario input[type="checkbox"]:checked + label.box span{
+	background: url(../img/box.jpg);
+}
+
+#formulario input[type="radio"]:checked + label.radio span{
+	background: url(../img/radio.jpg);
+}  
+
+/*=============================================
 PANTALLA DE ESCRITORIO GRANDE - LARGE (lg) - revisamos en portatil o pc
 =============================================*/
 
@@ -329,7 +403,7 @@ PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
 
 @media(max-width:991px) and (min-width:768px){
 
-	
+	.col-sm-12{width:100%;}
 	.col-sm-11{width:91.66666667%;}
 	.col-sm-10{width:83.33333333%;}
 	.col-sm-9{width:75%;}
@@ -373,7 +447,7 @@ PANTALLA DE PHONES - EXTRA SMALL (xs) - revisamos en movil horizontal 480px o ve
 
 @media(max-width:767px){
 
-	
+	.col-xs-12{width:100%;}
 	.col-xs-11{width:91.66666667%;}
 	.col-xs-10{width:83.33333333%;}
 	.col-xs-9{width:75%;}
