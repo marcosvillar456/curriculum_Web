@@ -329,7 +329,7 @@ PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
 
 @media(max-width:991px) and (min-width:768px){
 
-	.col-sm-12{width:100%;}
+	
 	.col-sm-11{width:91.66666667%;}
 	.col-sm-10{width:83.33333333%;}
 	.col-sm-9{width:75%;}
