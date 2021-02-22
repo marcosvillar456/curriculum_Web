@@ -7,10 +7,6 @@ position: relative;
 
 
 
-
-
-
-
 *{
 	margin:0px;
 	padding:0px;
@@ -454,7 +450,7 @@ color: #3a7999;
 }
 .btn-mode i {
   display: block;
-  font-size: 17px;
+  font-size: 27px;
   text-align: center;
   line-height: 30px;
 }
@@ -558,7 +554,7 @@ PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 10
 }
 .btn-mode i {
   display: block;
-  font-size: 17px;
+  font-size: 27px;
   text-align: center;
   line-height: 30px;
 }
@@ -594,7 +590,58 @@ PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 10
 .dark-mode .skill__item {
 background: #7D8785;
 }
+.portfolio__grid {
+    display: grid;
+   grid-template-columns:  1fr;
+    gap: 20px;
+}
+.card{
+ 
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+   
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);   
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 300px;
+ 
+}
+.card .contenido{
+   
+     margin-inline: auto;
+    width: 400px;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+    font-size: 15px;
 
+    
+}
+.card .contenido h3{
+    font-weight: 400;
+  
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border:1px solid #2fb4cc;
+    border-radius: 4px;
+}
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
 }
 
 /*=============================================
@@ -712,5 +759,102 @@ section {
 .dark-mode .skill__item {
 background: #7D8785;
 }
+.portfolio__grid {
+    display: grid;
+   grid-template-columns:  1fr;
+    gap: 20px;
+}
+.card{
+ 
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+   
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);   
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 300px;
+ 
+}
+.card .contenido{
+   
+    text-align: center;
+    width: 400px;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+    font-size: 15px;
 
+    
+}
+.card .contenido h3{
+    font-weight: 400;
+  
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border:1px solid #2fb4cc;
+    border-radius: 4px;
+}
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+}
+
+.card{
+ 
+    margin: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+   
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);   
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card img{
+    width: 300px;
+ 
+}
+.card .contenido{
+   margin-inline: auto;
+    text-align: center;
+}
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+
+    
+}
+.card .contenido h3{
+    font-weight: 400;
+  
+}
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border:1px solid #2fb4cc;
+    border-radius: 4px;
+}
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
 }

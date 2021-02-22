@@ -13,4 +13,10 @@ con id page y se aplicará el estilo active a la luna*/
   document.getElementById('page').classList.remove('dark-mode')
   document.getElementById('id-sun').classList.remove('active')
   this.classList.add('active')
+
 }
+
+window.onload = function(){
+	$('#onload').fadeOut();
+	$('body').removeClass('hidde');
+};
