@@ -840,12 +840,14 @@ background: #7D8785;
 .card .contenido p{
     line-height: 1.5;
     color: #6a6a6a;
+    font-size: 30px;
 
     
 }
 .card .contenido h3{
     font-weight: 400;
-  
+      font-size: 30px;
+
 }
 .card .contenido a{
     text-decoration: none;
@@ -855,8 +857,12 @@ background: #7D8785;
     color: #2fb4cc;
     border:1px solid #2fb4cc;
     border-radius: 4px;
+        font-size: 30px;
+
 }
 .card .contenido a:hover{
     background: #2fb4cc;
     color: #fff;
+        
+
 }
