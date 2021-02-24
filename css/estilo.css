@@ -698,7 +698,7 @@ PANTALLA DE TABLET - SMALL (sm) - revisamos en tablet vertical 768px
     transition: color 0.3s;
     font-size: 30px;
 }
-section {
+.section {
     padding: 90px 0;
     text-align: center;
     background: #040402;
