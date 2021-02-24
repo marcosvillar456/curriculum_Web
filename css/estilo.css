@@ -503,43 +503,6 @@ background: #7D8785;
     box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
     transform: translateY(-3%);
 }
-.card img{
-    width: 300px;
- 
-}
-.card .contenido{
-   margin-inline: auto;
-    text-align: center;
-}
-.card .contenido p{
-    line-height: 1.5;
-    color: #6a6a6a;
-   
-
-    
-}
-.card .contenido h3{
-    font-weight: 400;
-      font-size: 30px;
-
-}
-.card .contenido a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    margin-top: 10px;
-    color: #2fb4cc;
-    border:1px solid #2fb4cc;
-    border-radius: 4px;
-
-
-}
-.card .contenido a:hover{
-    background: #2fb4cc;
-    color: #fff;
-        
-
-}
 
 /*=============================================
 PANTALLA DE ESCRITORIO MEDIANO - MEDIUM (md) - revisamos en tablet horizontal 1024px
@@ -869,7 +832,7 @@ background: #7D8785;
 
 .card{
  
-    margin: 150px;
+ 
     border-radius: 6px;
     overflow: hidden;
    
